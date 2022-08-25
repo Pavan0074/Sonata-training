@@ -1,9 +1,11 @@
-def age(age):
-    x = (100 - age)
+def age():
+    name=input('Enter name:')
+    age=int(input('Enter age:'))
     if (age == 0):
-        return 'just born'
+        print (name + 'just born')
     elif (age == 100):
-        return 'already completed 100 yeras'
-    return x, 'to complete 100years'
-y=age(55)
-print(y)
+        print( name +'already completed 100 yeras')
+    else:
+         x = (100 - age)
+         print(name ,'needed',str(x) ,'to complete 100years')
+age()

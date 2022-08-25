@@ -15,3 +15,4 @@ print('possible inputs : rock ,paper , scissors')
 pl1 = input('enter your pl1 choice')
 pl2 = input('enter your pl2 choice')
 var = plgame(pl1, pl2)
+

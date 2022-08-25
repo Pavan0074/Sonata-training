@@ -1,4 +1,4 @@
-from leave import Leave
-from resticted import RestrictedLeave
-from reason import BasketofLeave
-
+from actdetails import Account
+user1=Account(2436575,'pavan','savings',0)
+print(user1.display())
+user1.withdraw()
